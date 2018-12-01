@@ -1,3 +1,28 @@
+div.home-background-img{
+    background: url(../img/IG%20hug%20149.jpg);
+    background-size:cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+    width: 100%;
+    filter: brightness(0.5); 
+    background-repeat: no-repeat;
+    background-color: #000428;
+    background-attachment: fixed;
+}
+div.text-below h1 {
+    font-size: 70px;
+}
+div.text-below span {
+    font-size: 25px;
+}
+div.text-below p {
+    font-size: 25px;
+}
 * {
     box-sizing: border-box;
 }
@@ -38,8 +63,8 @@
 }
 
 .logo {
-    width: 150px;
-    height: 80px;
+    width: 250px;
+    height: 120px;
 }
 
 .index-p {

@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('content')
 <div class="container-fluid">
+                <div class="home-background-img"></div>
                 <div class="text-below">
                     <img src="{{ asset('img/logo.png') }}" class="logo">
                 </div>
