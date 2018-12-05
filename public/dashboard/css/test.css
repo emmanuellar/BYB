@@ -1,0 +1,97 @@
+    .better{
+        width:85%;
+        border-radius: none!important;
+        background-color:#1E73E8;
+    }
+   .better:hover{
+       background-color:white;
+       border-color:white;
+   }
+    .sidecon{
+        margin:3% 3% 3% 10% ;
+       
+    }
+    @media only screen and (max-width: 600px) {
+        /* for sidenav */
+        .sidecon{
+            margin-left:0px!important;
+            /* width:100%; */
+        }
+        .better{
+            width:100%;
+            border-radius: none!important;
+            background-color:#1E73E8;
+        }
+        /* for books */
+        .books-cont{
+            /* height:80%; */
+            width:100%;
+            border:1px solid rgb(223, 219, 219);
+            /* margin:2% 5% 10% 1%; */
+            padding:5%;
+            }
+            .books-input{
+                width:100%;
+                margin:0 4%!important;
+                padding:7% 3%;
+            }
+    }
+      .bottomline{
+          border-bottom: 1px solid rgb(206, 203, 203);
+      }
+      .sidebar .nav .nav-item .nav-link {
+        align-items: center;
+        display: flex;
+        padding: 16px 4px;
+        white-space: nowrap;
+        height: 52px;
+        color: #4a4a4a;
+    }
+    .side-width{
+        width:85%;
+    }
+  
+    .foooter{
+        width:100%;
+        background-color:#1E73E8;
+        /* height:10%; */
+        z-index:2;
+        padding:2% 5%;
+        font-size:12px;
+    }
+    .fbport{
+        color:#C2BFC5;
+        
+    }
+  
+    /* for books */
+    .books-cont{
+        /* height:80%; */
+        width:100%;
+        border:1px solid rgb(223, 219, 219);
+        /* margin:2% 5% 10% 1%; */
+        padding:5%;
+        }
+    .books-input{
+            margin:0 4%!important;
+            padding:7% 3%;
+        }
+    .books-in{
+
+    }
+    .books-date{
+        padding:3% 3%!important;
+        margin:0 2%;
+    }
+    .botton{
+        padding:3% 0;
+        background-color:#1E73E8;
+        border:1px solid #1E73E8;
+    }
+
+    select.form-control:not([size]):not([multiple]) {
+    
+        height: 68px;
+        margin: 0 4%;
+    
+    }

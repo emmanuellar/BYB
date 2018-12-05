@@ -17,67 +17,52 @@
                             Please note that you are to fill this form a minimum of 7 days before your proposed date
                         </p>
                         <input type="hidden" name="user_id" value="{{$user->id}}">
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group row">
-                              <label class="col-sm-3 col-form-label">First Name</label>
-                              <div class="col-sm-9">
-                                <input type="text" class="form-control" value="{{$user->first_name}}" readonly/>
+                        <div class="container-fluid books-cont">
+                          
+                          <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group row">
+                                    <input type="text" class="form-control books-input" value="{{$user->first_name}}" readonly/>
+                                 
+                                </div>
                               </div>
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group row">
-                              <label class="col-sm-3 col-form-label">Last Name</label>
-                              <div class="col-sm-9">
-                                <input type="text" class="form-control" value="{{$user->last_name}}" readonly/>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col-md-6">
-                              <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Email</label>
-                                <div class="col-sm-9">
-                                  <input type="text" class="form-control" value="{{$user->email}}" readonly/>
+                              <div class="col-md-6">
+                                <div class="form-group row">
+                                <input type="text" class="form-control books-input" value="{{$user->last_name}}" readonly/>
+                              
                                 </div>
                               </div>
                             </div>
-                            <div class="col-md-6">
-                              <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Name of organisation</label>
-                                <div class="col-sm-9">
-                                  <input type="text" class="form-control" name="name_organisation"/>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group row">
+                                    <input type="text" class="form-control books-input" value="{{$user->email}}" readonly/>
+                                 
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group row">
-                              <label class="col-sm-3 col-form-label">Expected No of participants</label>
-                              <div class="col-sm-9">
-                                <input type="text" class="form-control" name="expected"/>
+                              <div class="col-md-6">
+                              <div class="form-group row">
+                                  <input type="text" class="form-control books-input" name="name_organisation" placeholder="Name of Organisation"/>
                               </div>
                             </div>
+                            </div>
+                          <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                                <input type="text" class="form-control books-input" name="expected" placeholder="Expected Nos of Participants"/>
+                            </div>
                           </div>
                           <div class="col-md-6">
                             <div class="form-group row">
-                              <label class="col-sm-3 col-form-label">Training Venue</label>
-                              <div class="col-sm-9">
-                                <input class="form-control" name="venue"/>
-                              </div>
+                                <input class="form-control books-input" name="venue" placeholder="Training Venue"/>
                             </div>
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-md-6">
                             <div class="form-group row">
-                              <label class="col-sm-3 col-form-label">Proposed LGA</label>
-                              <div class="col-sm-9">
-                                <select class="form-control" name="location">
+                             
+                                <select class="books-in" name="location">
                                   <option>Aba South</option>
                                   <option>Aba North</option>
                                   <option>Arochukwu</option>
@@ -96,40 +81,43 @@
                                   <option>Umuahia South</option>
                                   <option>Umunneochi</option>
                                 </select>
-                              </div>
+                              
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="form-group row">
-                              <label class="col-sm-3 col-form-label">Proposed training date</label>
-                              <div class="col-sm-9">
-                                <input class="form-control" type="date" name="trainnig"/>
-                              </div>
+                         
+                                <input class="form-control books-input" type="date" name="trainnig" placeholder="Proposed Training Date"/>
+                             
                             </div>
                           </div>
                         </div>
-
                         <div class="row">
-                          <div class="col-md-6">
+                          <div class="col-md-12">
                             <div class="form-group row">
-                              <label class="col-sm-3 col-form-label">Proposed time</label>
-                              <div class="col-sm-9">
-                                <input type="text" class="form-control" type="time" name="time"/>
-                              </div>
+                                <input type="text" class="form-control books-date" type="time" name="time" placeholder="Proposed Time"/>
                             </div>
                           </div>
-                          +
-                          <div class="col-md-6">
-                            <div class="form-group row">
-                              <label class="col-sm-3 col-form-label"></label>
-                              <div class="col-sm-9">
+                          
+                        </div>
+                        <div class="row">
+                        <div class="col-md-12 text-center">
+                        <div class="form-group row">
+                              <label class="col-sm-2 col-form-label"></label>
+                              <div class="col-sm-8">
 
-                                <button class="btn btn-success btn-block">Book session
+                                <button class="btn btn-success botton btn-block">Book session
                                   <i class=""></i>
                                 </button>
                               </div>
-                            </div>
-                          </div>
+                              <label class="col-sm-2 col-form-label"></label>
+                        
+                                
+                        </div>
+                        
+                        </div>
+                        
+                        
                         </div>
                       </form>
                     </div>
