@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="{{ asset('dashboard/vendors/css/vendor.bundle.base.css') }}">
   <link rel="stylesheet" href="{{ asset('vendors/css/vendor.bundle.addons.css') }}">
   <link rel="stylesheet" href="{{ asset('dashboard/css/style.css') }}">
+  <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('public/dashboard/css/test.css') }}" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="shortcut icon" href="" />
   <link rel="stylesheet" href="{{ asset('css/toastr.css') }}">
@@ -19,9 +20,9 @@
 <body>
   <div class="container-scroller">
     @include('layouts.dashboard.navbar')
-    <div class="container-fluid page-body-wrapper">
+    <div class="container-fluid page-body-wrapper check-side">
       @include('layouts.dashboard.sidebar')
-       <div class="main-panel">
+       <div class="main-panel check-footer">
       @yield('content')
       @include('layouts.dashboard.footer')
     </div>
