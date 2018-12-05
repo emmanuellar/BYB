@@ -1,32 +1,23 @@
-<nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
-      <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
-        <a class="navbar-brand" href="#">
-          <img src="" alt="IGHUB BYB" />
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="" alt="IGHUB BYB" />
-        </a>
-      </div>
-      <div class="navbar-menu-wrapper d-flex align-items-center">
-        <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
+<nav class="navbar default-layout col-lg-12 col-12  fixed-top d-flex flex-row">
+      <div> </div>
+      <div class="container navbar-menu-wrapper d-flex align-items-center">
+        <ul class=" navbar-nav  header-links d-none d-md-flex">
          <li class="nav-item">
-            <a href="{{route('resources')}}" class="nav-link">Resources
-              <span class="badge badge-primary ml-1">note</span>
-            </a>
+            <a href="{{route('resources')}}" class="nav-link"><b>BYB</b></a>
           </li>
           <li class="nav-item active">
-            <a href="#" class="nav-link">
-              <i class="mdi mdi-elevation-rise"></i>Approved earnings</a>
+            <a href="#" class="nav-link">with&nbspFacebook</a>
           </li>
         </ul>
         <ul class="navbar-nav navbar-nav-right">
           <li class="nav-item dropdown d-none d-xl-inline-block">
-            <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-              <span class="profile-text">Hello, {{Auth::user()->first_name}} {{Auth::user()->last_name}}!</span>
+            <a class="nav-link " id="" href="#" data-toggle="dropdown" aria-expanded="false">
+              <i class="mdi mdi-settings mr-1 mdi-24px" aria-hidden="true" style="padding: 20px;"></i>
               @if(Auth::user()->profile)
              
-              <img class="img-xs rounded-circle" src="/storage/upload/{{Auth::user()->profile->profile_picture}}" alt="Profile image">
+             
               @endif
+               <i class="mdi mdi-account-circle mr-1 mdi-24px" aria-hidden="true"></i>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
               <!--<a class="dropdown-item p-0">-->
@@ -63,7 +54,7 @@
             </div>
           </li>
         </ul>
-        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas" style="margin-left: 300px;">
           <span class="mdi mdi-menu"></span>
         </button>
       </div>

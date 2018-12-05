@@ -12,7 +12,9 @@
        
     }
     @media only screen and (max-width: 600px) {
+
         /* for sidenav */
+
         .sidecon{
             margin-left:0px!important;
             /* width:100%; */
@@ -22,6 +24,7 @@
             border-radius: none!important;
             background-color:#1E73E8;
         }
+<<<<<<< HEAD
         /* for books */
         .books-cont{
             /* height:80%; */
@@ -36,6 +39,9 @@
                 padding:7% 3%;
             }
     }
+=======
+      }
+>>>>>>> af825f8e85c79159db113afec4ef167b1d374492
       .bottomline{
           border-bottom: 1px solid rgb(206, 203, 203);
       }
@@ -66,12 +72,18 @@
   
     /* for books */
     .books-cont{
+<<<<<<< HEAD
         /* height:80%; */
         width:100%;
+=======
+        height:80%;
+        width:70%;
+>>>>>>> af825f8e85c79159db113afec4ef167b1d374492
         border:1px solid rgb(223, 219, 219);
         /* margin:2% 5% 10% 1%; */
         padding:5%;
         }
+<<<<<<< HEAD
     .books-input{
             margin:0 4%!important;
             padding:7% 3%;
@@ -95,3 +107,8 @@
         margin: 0 4%;
     
     }
+=======
+        .books-input{
+            
+        }
+>>>>>>> af825f8e85c79159db113afec4ef167b1d374492

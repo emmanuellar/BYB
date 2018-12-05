@@ -12,7 +12,10 @@
   <link rel="stylesheet" href="{{ asset('vendors/css/vendor.bundle.addons.css') }}">
   <link rel="stylesheet" href="{{ asset('dashboard/css/style.css') }}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('public/dashboard/css/test.css') }}" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> af825f8e85c79159db113afec4ef167b1d374492
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="shortcut icon" href="" />
   <link rel="stylesheet" href="{{ asset('css/toastr.css') }}">
