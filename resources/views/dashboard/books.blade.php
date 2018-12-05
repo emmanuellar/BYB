@@ -22,18 +22,100 @@
                           <div class="row">
                               <div class="col-md-6">
                                 <div class="form-group row">
-                                    <input class="books-input" type="text" class="form-control" value="{{$user->first_name}}" readonly/>
+                                    <input type="text" class="form-control books-input" value="{{$user->first_name}}" readonly/>
                                  
                                 </div>
                               </div>
                               <div class="col-md-6">
                                 <div class="form-group row">
-                                <input type="text" class="form-control" value="{{$user->last_name}}" readonly/>
+                                <input type="text" class="form-control books-input" value="{{$user->last_name}}" readonly/>
                               
                                 </div>
                               </div>
                             </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group row">
+                                    <input type="text" class="form-control books-input" value="{{$user->email}}" readonly/>
+                                 
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                              <div class="form-group row">
+                                  <input type="text" class="form-control books-input" name="name_organisation" placeholder="Name of Organisation"/>
+                              </div>
+                            </div>
+                            </div>
+                          <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                                <input type="text" class="form-control books-input" name="expected" placeholder="Expected Nos of Participants"/>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                                <input class="form-control books-input" name="venue" placeholder="Training Venue"/>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                             
+                                <select class="books-in" name="location">
+                                  <option>Aba South</option>
+                                  <option>Aba North</option>
+                                  <option>Arochukwu</option>
+                                  <option>Bende</option>
+                                  <option>Ikwuano</option>
+                                  <option>Isiala Ngwa North</option>
+                                  <option>Isiala Ngwa South</option>
+                                  <option>Isiukwuato</option>
+                                  <option>Obingwa</option>
+                                  <option>Ohafia</option>
+                                  <option>Osisioma Ngwa</option>
+                                  <option>Ugwunagbo</option>
+                                  <option>Ukwa East</option>
+                                  <option>Ukwa West</option>
+                                  <option>Umuahia North</option>
+                                  <option>Umuahia South</option>
+                                  <option>Umunneochi</option>
+                                </select>
+                              
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group row">
+                         
+                                <input class="form-control books-input" type="date" name="trainnig" placeholder="Proposed Training Date"/>
+                             
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="form-group row">
+                                <input type="text" class="form-control books-date" type="time" name="time" placeholder="Proposed Time"/>
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <div class="row">
+                        <div class="col-md-12 text-center">
+                        <div class="form-group row">
+                              <label class="col-sm-2 col-form-label"></label>
+                              <div class="col-sm-8">
+
+                                <button class="btn btn-success botton btn-block">Book session
+                                  <i class=""></i>
+                                </button>
+                              </div>
+                              <label class="col-sm-2 col-form-label"></label>
                         
+                                
+                        </div>
+                        
+                        </div>
                         
                         
                         </div>
