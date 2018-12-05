@@ -37,13 +37,22 @@
         width:85%;
     }
   
-    .foooter{
-        width:100%;
+    .md-footer{
+        width:155%;
         background-color:#1E73E8;
         /* height:10%; */
         z-index:2;
         padding:2% 5%;
         font-size:12px;
+        margin-left: -450px;
+    }
+    .sm-footer{
+    
+        background-color:#1E73E8;
+        /* height:10%; */
+        padding:2% 5%;
+        font-size:12px;
+         
     }
     .fbport{
         color:#C2BFC5;
